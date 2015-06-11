@@ -406,7 +406,7 @@ Add to your HTML
     <div class="w3cinner">
         <div class="w3cinner-key">31:
             <div class="typevalArray"></div>
-        </div>
+        </div> 
         <div class="w3cerror error-type">error</div>
         <div class="w3cerror error-lastLine">7</div>
         <div class="w3cerror error-lastColumn">1309</div>
