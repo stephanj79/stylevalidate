@@ -1,0 +1,78 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300");
+.codeblock {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.codeblock b {
+  color: black;
+  background-color: #FF6666;
+}
+.vorher {
+  float: left;
+  background: rgba(220, 56, 52, 0.38);
+}
+.makiert {
+  float: left;
+  background: #ff0000;
+}
+.nachher {
+  background: rgba(220, 56, 52, 0.38);
+}
+#w3cfails {
+  font-family: "Roboto", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+#w3cfails > div:nth-child(2) {
+  display: none;
+}
+#w3cfails > div:nth-child(3) {
+  display: none;
+}
+.info-message {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.error-hiliteLength {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.error-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.info-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.w3cinner {
+  background: #fff;
+  margin-top: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.w3cinfo {
+  background: rgba(253, 181, 0, 0.33);
+  padding-left: 5px;
+}
+.w3cerror {
+  background: rgba(220, 56, 52, 0.38);
+}
+.btn-help-w3c {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-left: 5px;
+}
+.w3cfails_innerinfo {
+  background: rgba(253, 181, 0, 0.33);
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+.w3cfails_innererror {
+  background: rgba(220, 56, 52, 0.38);
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,83 @@
+@base-color-error-hell: rgba(220, 56, 52, 0.38);
+@base-color-error-dark: rgb(255, 0, 0);
+@base-color-info-hell: rgba(253, 181, 0, 0.33);
+
+@import url("http://fonts.googleapis.com/css?family=Roboto");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300");
+
+.codeblock{
+white-space: pre-wrap;
+word-wrap: break-word;
+ b {
+  color: black;
+  background-color: #FF6666;
+ }
+}
+.vorher{
+float: left;
+ background: @base-color-error-hell;
+}
+.makiert{
+ float: left;
+ background: @base-color-error-dark;
+}
+.nachher{
+ background: @base-color-error-hell;
+}
+#w3cfails {
+ font-family: "Roboto", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+#w3cfails > div:nth-child(2){
+ display: none;
+}
+#w3cfails > div:nth-child(3){
+ display: none;
+}
+.info-message{
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+.error-hiliteLength{
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
+.error-type{
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+.info-type{
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+.w3cinner{
+ background: #fff;
+ margin-top: 5px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+.w3cinfo{
+ background: @base-color-info-hell;
+ padding-left: 5px;
+}
+.w3cerror{
+ background: @base-color-error-hell;
+}
+.btn-help-w3c{
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ margin-left: 5px;
+}
+.w3cfails_innerinfo{
+ background: @base-color-info-hell;
+ padding: 5px;
+ border-radius: 10px 10px 10px 10px;
+}
+.w3cfails_innererror{
+ background: @base-color-error-hell;
+ padding: 5px;
+ border-radius: 10px 10px 10px 10px;
+}
